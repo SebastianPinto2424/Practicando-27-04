@@ -33,10 +33,7 @@ int calcularCuadrado(int numero) {
     return numero * numero;
 }
 
-// Funcion que calcula el promedio de tres notas
-float calcularPromedio(float nota1, float nota2, float nota3) {
-    return (nota1 + nota2 + nota3) / 3;
-}
+
 
 int main() {
     int num1 = 10;
@@ -56,7 +53,6 @@ int main() {
 
     printf("\n--- Otras funciones ---\n");
     printf("El cuadrado de %d es: %d\n", num1, calcularCuadrado(num1));
-    printf("El promedio de las notas %.1f, %.1f y %.1f es: %.2f\n", nota1, nota2, nota3, calcularPromedio(nota1, nota2, nota3));
 
     return 0;
 }
