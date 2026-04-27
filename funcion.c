@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+void saludar() {
+    printf("Hola, bienvenido al programa de funciones matematicas.\n");
+}
 // Funcion que suma dos numeros enteros
 int sumar(int a, int b) {
     return a + b;
@@ -43,6 +46,7 @@ int main() {
     float nota2 = 5.5;
     float nota3 = 7.0;
 
+    saludar();
 
     printf("\n--- Operaciones basicas ---\n");
     printf("Suma: %d + %d = %d\n", num1, num2, sumar(num1, num2));
